@@ -14,5 +14,3 @@ def lnght(text):
 a = lnght(text)
 for i in range(len(a)):
     print(a[i])
-
-"ghj"
