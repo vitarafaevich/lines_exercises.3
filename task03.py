@@ -5,5 +5,9 @@
 
 txt = input()
 exclsv_ch = set(txt)
-exclsv_ch = [i for i in exclsv_ch if i.isalpha() == True]
-print("Количество различных букв в тексте:", len(exclsv_ch))
+cntr = 0
+for i in exclsv_ch:
+    if i.isalpha() == True:
+        cntr += 1
+print("Количество различных букв в тексте:", cntr)
+
