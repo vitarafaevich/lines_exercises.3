@@ -8,3 +8,18 @@
 первым нарушил правила игры.
 """
 
+txt = input()
+text = txt.split()
+victory = " "
+first_wrd = text[0]
+last_lttr = first_wrd[-1]
+
+for i in range(len(text)):
+    if text[i][0] == last_lttr:
+        last_lttr = text[i][-1]
+    else:
+        if i % 2 != 0:
+            victory = "Петя"
+        else:
+            victory = "Вася"
+print(victory)

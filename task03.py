@@ -10,4 +10,3 @@ for i in exclsv_ch:
     if i.isalpha() == True:
         cntr += 1
 print("Количество различных букв в тексте:", cntr)
-
