@@ -5,11 +5,10 @@
 """
 
 txt = input()
-
-
-def three_times(txt):
-    ch_cnt = {}
-    for ch in txt:
-        if ch in ch_cnt
-
-"ПЕРЕДЕЛАТЬ"
+cnt = 0
+for ch in txt:
+    if txt.count(ch) == 3:
+        cnt += 1
+        if cnt == 1:
+            print("Символ", ch, "встречается в тексте 3 раза")
+            break
